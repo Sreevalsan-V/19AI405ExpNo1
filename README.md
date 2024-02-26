@@ -91,9 +91,12 @@ class VCAgent:
 
 ```
 # Example usage:
+```
 agent = VacuumCleanerAgent()
+```
 
 # Move the agent, suck dirt, and do nothing
+```
 
 agent.perform_action("left")
 agent.print_status()
@@ -101,6 +104,7 @@ agent.perform_action("suck")
 agent.print_status()
 agent.perform_action("nothing")
 agent.print_status()
+```
 
 # OUTPUT:
 
